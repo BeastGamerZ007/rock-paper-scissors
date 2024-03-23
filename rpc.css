@@ -1,26 +1,21 @@
 .choice{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-left: 5vw;
-    font-size: 4vw;
     display: flex;
     align-items: center;
     gap: 2.5vw;
 }
-.um,.cm{
-    width: 4vw;
-}
 .declare{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-left: 5vw;
-    font-size: 4vw;
     margin-bottom: 2vw;
 }
 .show{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-left: 5vw;
-    font-size: 4vw;
 }
 .box{
+    justify-content: center;
     margin-top: 1vw;
     padding: 2vw 2vw;
     width: fit-content;
