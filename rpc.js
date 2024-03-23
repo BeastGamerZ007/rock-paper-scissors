@@ -91,7 +91,7 @@ function imp(user,com)
 function display(um)
 {
     let cm=commove();
-    b.innerHTML='<p>You Chose : </p><img class="um" src="'+um+'.png"> <br> <p>Comuter Chose : </p><img class="cm" src="'+cm+'.png">';
+    b.innerHTML='<p>You Chose : </p><img class="um" src="'+um+'.png"> <br> <p>Computer Chose : </p><img class="cm" src="'+cm+'.png">';
     c.innerHTML=imp(um,cm);
     a.innerHTML="Wins : "+score.win+"<br>Losses : "+score.lose+"<br>Draws : "+score.draw;
 }
