@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="rpc.css">
+</head>
+<body>
+    <h3 class="heading">Imaad's Rock Paper Scissors Game</h3>
+    <div class="container">
+            <button class="rock" onclick="
+            display('Rock');
+            ">
+            <img src="Rock.png" alt="">
+        </button>
+        <button class="paper" onclick="
+            display('Paper');
+        ">
+            <img class="hand" src="Paper.png" alt="">
+        </button>
+        <button class="scissors" onclick="
+            display('Scissors');
+        ">
+            <img src="Scissors.png" alt="">
+        </button>
+    </div>
+    <div class="resetcontainer">
+        <button class="reset">
+        Reset
+        </button>
+    </div>
+    <div class="box">
+        <div class="choice">
+        </div>
+        <div class="declare">
+        </div>
+        <div class="show">
+        </div>
+    </div>
+</body>
+<script src="rpc.js"></script>
+</html>
